@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><style>
+.d1{
+border: 2px solid green;
+height: 250px;
+width: 450px;
+background-color: bisque;
+}
+img{
+    border-radius: 100px;
+    margin-left: 250px ;
+    margin-top:-120px;
+}
+.d2{
+    border: 2px solid red;
+    height: 20px;
+    width:250px;
+    background-color: grey;
+    
+}
+.d3{
+
+    border: 2px dotted violet;
+    background-color: orange;
+    display:none;
+    margin-left: 100px;
+}
+.d2:hover +.d3{
+    display:inline-block
+}
+
+.d4{
+
+    border: 2px solid red;
+
+    height: 250px;
+    width: 450px;
+    background-color: chocolate;
+    margin-top: -250px;
+    margin-left: 500px;
+    margin-right: 20px;
+}
+img{
+    margin-left: 300px;
+}
+.d5{
+    border: 2px solid red;
+    height: 20px;
+    background-color: grey;
+}
+.d6{
+   
+    display: none;
+    background-color: red;
+
+}
+.d5:hover +.d6{
+    display: inline-block;
+}
+
+
+
+
+
+</style>
+
+
+
+
+<body>
+   <div class="d1">
+    <h2>personal information</h2>
+    <ul>
+        <li>
+            NAME:PAWAN KALYAN    </li>
+            <li>AGE:52</li>
+            <LI>DESIGNATION:DEPUTY CM</LI>
+        </ul>
+            
+    <img src="./pspk.jpg" height="150" width="150">
+    <p class="d2">hover here to view more information </p>
+     <div class="d3">
+        <h2>Pawan Kalyan is a prominent Indian actor, politician, and film producer, best known for his work in the Telugu film industry. He was born on September 2, 1971, in Bapatla, Andhra Pradesh, India. Pawan Kalyan is often regarded as one of the most influential and charismatic actors in Telugu cinema, and his fan following is immense, especially in the Telugu-speaking states of Andhra Pradesh and Telangana.</h2>
+         </div>
+         </div>
+         <div class="d4">
+<h2>personal information</h2>
+<ul>
+    <li>NAME:VIRAT KOHLI</li>
+    <LI>AGE:36</LI>
+    <LI>DESIGNATION:KING OF CRICKET</LI>
+</ul>
+<img src="./virat.webp" height="150" width="150>">
+<p1 class="d5">hover here for more information</p1>
+<div class="d6">
+<h3>Virat Kohli is one of the most celebrated cricketers in the world and one of the most successful Indian captains in cricket history. Known for his aggressive batting style, leadership qualities, and determination, Kohli has set numerous records and is considered one of the greatest batsmen in the history of the game.</h3>
+
+</div>
+         </div> 
+        </body>   
+</html>
